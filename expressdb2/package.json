@@ -1,0 +1,20 @@
+{
+  "name": "expressdb2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon server.js"
+  },
+  "author": "Chris Shore",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ibm_db": "^2.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8-alpha.a"
+  }
+}

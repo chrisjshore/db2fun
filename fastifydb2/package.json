@@ -1,0 +1,21 @@
+{
+  "name": "nodedb2",
+  "version": "1.0.0",
+  "description": "Trivial fastify REST API calling a stored proc on sample DB2 database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon server.js"
+  },
+  "author": "Chris Shore",
+  "license": "MIT",
+  "dependencies": {
+    "@dnlup/fastify-traps": "^1.1.2",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.17.0",
+    "ibm_db": "^2.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8-alpha.a"
+  }
+}
